@@ -1,0 +1,11 @@
+C:\mobiPOS\TestMode\TestMode\bin\Debug\TestMode.exe
+C:\mobiPOS\TestMode\TestMode\bin\Debug\TestMode.pdb
+C:\mobiPOS\TestMode\TestMode\obj\Debug\ResolveAssemblyReference.cache
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.selector.resources
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.Pic.resources
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.Properties.Resources.resources
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.Snd.resources
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.TouchMenu.resources
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.csproj.GenerateResource.Cache
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.exe
+C:\mobiPOS\TestMode\TestMode\obj\Debug\TestMode.pdb
