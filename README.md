@@ -1,7 +1,7 @@
 # TestMode
 A Smart Device application in C# to test and view info about device (screen, sound, touch calibration, OS info)
 # Requirements
-For target: Pocket PC 2003 or later and .NET Compact Framework 3.5, for dev PC: Microsoft Visual Studio 2008 or later
+For target: Pocket PC 2003 and later and .NET Compact Framework 3.5, for dev PC: Visual Studio 2008 and later
 
 # Screenshots
 
