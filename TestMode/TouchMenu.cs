@@ -21,7 +21,7 @@ namespace TestMode
         {
              // using System.Diagnostics.Process & full path
             ProcessStartInfo processStartInfo = new ProcessStartInfo();
-            processStartInfo.FileName = @"\Windows\calib.exe";
+            processStartInfo.FileName = @"\Program Files\Calib\calib.exe";
             processStartInfo.UseShellExecute = false;
             Process.Start(processStartInfo);
         }
