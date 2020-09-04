@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "Test Mode Resources", "Test Mode Resources.vddproj", "{A2522122-7DD3-4E00-A77B-037527FF21C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2522122-7DD3-4E00-A77B-037527FF21C2}.Debug|Default.ActiveCfg = Debug
+		{A2522122-7DD3-4E00-A77B-037527FF21C2}.Debug|Default.Build.0 = Debug
+		{A2522122-7DD3-4E00-A77B-037527FF21C2}.Release|Default.ActiveCfg = Release
+		{A2522122-7DD3-4E00-A77B-037527FF21C2}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
