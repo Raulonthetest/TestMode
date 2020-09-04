@@ -6,7 +6,7 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu SndMenu;
+        private System.Windows.Forms.MainMenu mbar;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -29,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SndMenu = new System.Windows.Forms.MainMenu();
+            this.mbar = new System.Windows.Forms.MainMenu();
             this.exitbtn = new System.Windows.Forms.MenuItem();
             this.beepbtnbeepbtn = new System.Windows.Forms.Button();
             this.lbeep = new System.Windows.Forms.Button();
@@ -39,9 +39,9 @@
             this.shttunb = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // SndMenu
+            // mbar
             // 
-            this.SndMenu.MenuItems.Add(this.exitbtn);
+            this.mbar.MenuItems.Add(this.exitbtn);
             // 
             // exitbtn
             // 
@@ -114,7 +114,7 @@
             this.Controls.Add(this.beatbtn);
             this.Controls.Add(this.lbeep);
             this.Controls.Add(this.beepbtnbeepbtn);
-            this.Menu = this.SndMenu;
+            this.Menu = this.mbar;
             this.Name = "Snd";
             this.Text = "Sound";
             this.ResumeLayout(false);

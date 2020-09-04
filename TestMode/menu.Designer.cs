@@ -6,7 +6,7 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu notice;
+        private System.Windows.Forms.MainMenu mbar;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -29,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.notice = new System.Windows.Forms.MainMenu();
+            this.mbar = new System.Windows.Forms.MainMenu();
             this.exitbtn = new System.Windows.Forms.MenuItem();
             this.picbutn = new System.Windows.Forms.Button();
             this.sndbutn = new System.Windows.Forms.Button();
@@ -37,9 +37,9 @@
             this.osvbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // notice
+            // mbar
             // 
-            this.notice.MenuItems.Add(this.exitbtn);
+            this.mbar.MenuItems.Add(this.exitbtn);
             // 
             // exitbtn
             // 
@@ -94,7 +94,7 @@
             this.Controls.Add(this.picbutn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(0, 0);
-            this.Menu = this.notice;
+            this.Menu = this.mbar;
             this.Name = "selector";
             this.Text = "Test Mode";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

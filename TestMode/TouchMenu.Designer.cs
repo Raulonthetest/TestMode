@@ -6,7 +6,7 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu mainMenu1;
+        private System.Windows.Forms.MainMenu mbar;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -29,14 +29,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mainMenu1 = new System.Windows.Forms.MainMenu();
-            this.calbbtn = new System.Windows.Forms.Button();
+            this.mbar = new System.Windows.Forms.MainMenu();
             this.exitbtn = new System.Windows.Forms.MenuItem();
+            this.calbbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // mainMenu1
+            // mbar
             // 
-            this.mainMenu1.MenuItems.Add(this.exitbtn);
+            this.mbar.MenuItems.Add(this.exitbtn);
+            // 
+            // exitbtn
+            // 
+            this.exitbtn.Text = "Exit";
+            this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
             // 
             // calbbtn
             // 
@@ -47,11 +52,6 @@
             this.calbbtn.Text = "Calibrate";
             this.calbbtn.Click += new System.EventHandler(this.calbbtn_Click);
             // 
-            // exitbtn
-            // 
-            this.exitbtn.Text = "Exit";
-            this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
-            // 
             // TouchMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -59,7 +59,7 @@
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(240, 268);
             this.Controls.Add(this.calbbtn);
-            this.Menu = this.mainMenu1;
+            this.Menu = this.mbar;
             this.Name = "TouchMenu";
             this.Text = "Touch";
             this.ResumeLayout(false);
