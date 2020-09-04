@@ -14,7 +14,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_6F01929909D047FD93EFBC225B02A43F"
+        "MsmKey" = "8:_465FDD57CC784E52A4CDD6A1E085EFD9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -68,19 +68,19 @@
     {
         "File"
         {
-            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_6F01929909D047FD93EFBC225B02A43F"
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_465FDD57CC784E52A4CDD6A1E085EFD9"
             {
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Calib, Version=1.0.0.0, Culture=neutral"
                 "ScatterAssemblies"
                 {
-                    "_6F01929909D047FD93EFBC225B02A43F"
+                    "_465FDD57CC784E52A4CDD6A1E085EFD9"
                     {
                     "Name" = "8:Calib.exe"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\..\\Smart Device C# Touch Calibrate\\Calib\\Calib\\bin\\Debug\\Calib.exe"
+            "SourcePath" = "8:Calib.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_001D1907C8F94EC48BC708B006AFE69C"
